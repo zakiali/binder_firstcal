@@ -5,7 +5,7 @@ basemap==1.0.7
 pyephem==3.7.5.2
 jupyter==1.0.0
 seaborn==0.7.1
--e git://github.com/zakiali/capo.git
--e git://github.com/zakiali/omnical.git
--e git://github.com/zakiali/aipy.git
+-e git://github.com/zakiali/capo.git#egg=capo
+-e git://github.com/zakiali/omnical.git#egg=omnical
+-e git://github.com/zakiali/aipy.git#egg=aipy
 
