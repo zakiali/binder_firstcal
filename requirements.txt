@@ -4,11 +4,8 @@ matplotlib==1.3.1
 basemap==1.0.7
 pyephem==3.7.5.2
 jupyter==1.0.0
-sys
-optparse
-glob
 seaborn==0.7.1
-git+git://github.com/zakiali/capo
-git+git://github.com/zakiali/omnical
-git+git://github.com/zakiali/aipy
+-e git://github.com/zakiali/capo.git
+-e git://github.com/zakiali/omnical.git
+-e git://github.com/zakiali/aipy.git
 
