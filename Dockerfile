@@ -11,7 +11,7 @@ RUN conda install -y \
     psutil \
     psycopg2 \
     scipy \
-    seaborn \
+    seaborn 
 
 ADD hsa7458_v000.py .
 
