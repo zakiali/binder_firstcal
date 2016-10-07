@@ -13,11 +13,7 @@ RUN conda install -y \
     scipy \
     seaborn \
 
-RUN git clone git@github.com:zakiali/capo.git && cd capo && python ./setup.py install && cd -
-
-RUN git clone git@github.com:zakiali/omnical.git && cd omnical && python .setup.py install && cd - 
-
-RUN git clone git@github.com:zakiali/capo.git && cd capo && python ./setup.py install && cd -
-
 COPY hsa7458_v000.py .
+
+RUN pip install -r requirements.txt
 
