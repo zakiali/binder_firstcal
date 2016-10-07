@@ -1,7 +1,6 @@
 FROM andrewosh/binder-base
 MAINTAINER Zaki Ali <zakiali@berkeley.edu>
 
-RUN mkdir -p /firstcal
 
 RUN conda install -y \
     astropy \
