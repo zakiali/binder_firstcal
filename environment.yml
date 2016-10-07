@@ -1,0 +1,10 @@
+name: firstcal
+dependencies:
+  - python=2.7
+  - numpy
+  - astropy
+  - matplotlib
+  - basemap
+  - seaborn
+  - pip:
+    - git+git://github.com/zakiali/capo.git#egg=capo
