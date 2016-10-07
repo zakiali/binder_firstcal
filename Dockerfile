@@ -13,7 +13,7 @@ RUN conda install -y \
     scipy \
     seaborn \
 
-COPY hsa7458_v000.py .
+ADD hsa7458_v000.py .
 
 RUN pip install -r requirements.txt
 
